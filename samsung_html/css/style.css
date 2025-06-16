@@ -197,6 +197,7 @@ main {
   margin: auto;
   position: relative;
   border-radius: 30px;
+  margin-bottom: 60px;
 }
 
 .swiper-slide {
@@ -677,6 +678,13 @@ main {
   display: flex;
 }
 
+.choose > h2 {
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
 .choose_left {
   width: 170px;
   height: 194px;
@@ -684,8 +692,18 @@ main {
 }
 
 .choose_left img {
+  margin-top: 40px;
   width: 170px;
   height: 170px;
+}
+
+.choose_left_after {
+  font-weight: 500;
+}
+
+.choose_left_after::after {
+  content: "→";
+  line-height: 16px;
 }
 
 #line {
